@@ -30,6 +30,6 @@ https://alphacephei.com/vosk/install
 #### Models   
 https://alphacephei.com/vosk/models
 #### Performance
-210 secondd file, splitted to 210+210 sequentialy. In summ is 420 sec, solved within 130 seconds.   
+210 second file, splitted to 210+210 sequentialy. In summ is 420 sec, solved within 130 seconds.   
 CPU: 100% by one core. Intel(R) Core(TM) i3-7350K CPU @ 4.20GHz   
 MEM: ~2.176 Gb
