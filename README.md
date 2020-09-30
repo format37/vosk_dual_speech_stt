@@ -9,8 +9,7 @@ python3 setup.py install --user --single-version-externally-managed --root=/
 cd vosk-api/python/example   
 wget https://alphacephei.com/vosk/models/vosk-model-ru-0.10.zip   
 unzip vosk-model-ru-0.10.zip   
-mv vosk-model-ru-0.10.zip model   
-python3 ./test_simple.py test.wav  
+mv vosk-model-ru-0.10.zip model     
 ```  
 
 #### Running the example code with python
