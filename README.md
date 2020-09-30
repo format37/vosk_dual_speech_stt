@@ -3,13 +3,12 @@ Kaldi, vosk. Russian voice example
 #### Installation
 ```python3 -m pip install vosk   
 git clone https://github.com/alphacep/vosk-api.git   
-export KALDI_ROOT=<KALDI_ROOT>   
-cd python   
+cd vosk-api/python/   
 python3 setup.py install --user --single-version-externally-managed --root=/   
-cd vosk-api/python/example   
+cd example   
 wget https://alphacephei.com/vosk/models/vosk-model-ru-0.10.zip   
 unzip vosk-model-ru-0.10.zip   
-mv vosk-model-ru-0.10.zip model     
+mv vosk-model-ru-0.10 model     
 ```  
 
 #### Running the example code with python
