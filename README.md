@@ -8,7 +8,8 @@ python3 setup.py install --user --single-version-externally-managed --root=/
 cd example   
 wget https://alphacephei.com/vosk/models/vosk-model-ru-0.10.zip   
 unzip vosk-model-ru-0.10.zip   
-mv vosk-model-ru-0.10 model     
+mv vosk-model-ru-0.10 model  
+python3 -m pip install vosk
 ```  
 
 #### Running the example code with python
